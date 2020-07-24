@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoystickPack", "JoystickPack.csproj", "{a25d2886-f812-1e67-7d48-9aa3584c6104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frankenstein.Controls", "Frankenstein.Controls.csproj", "{5fcebe0a-e8ce-314b-5f7f-74622dfbf1a6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frankenstein", "Frankenstein.csproj", "{ee06f277-a4fd-1723-8307-35461bab485d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frankenstein.DTO", "Frankenstein.DTO.csproj", "{5677c0bd-49c4-4575-c3c2-b7ff1a2938db}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingersLite", "FingersLite.csproj", "{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frankenstein.CloudBuild", "Frankenstein.CloudBuild.csproj", "{55760b00-5951-cb94-efe9-41b812e69e05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{8b4f2fee-971a-5163-7ebc-f1cb7355dade}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{a25d2886-f812-1e67-7d48-9aa3584c6104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a25d2886-f812-1e67-7d48-9aa3584c6104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{a25d2886-f812-1e67-7d48-9aa3584c6104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{a25d2886-f812-1e67-7d48-9aa3584c6104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5fcebe0a-e8ce-314b-5f7f-74622dfbf1a6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5fcebe0a-e8ce-314b-5f7f-74622dfbf1a6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5fcebe0a-e8ce-314b-5f7f-74622dfbf1a6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5fcebe0a-e8ce-314b-5f7f-74622dfbf1a6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ee06f277-a4fd-1723-8307-35461bab485d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ee06f277-a4fd-1723-8307-35461bab485d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ee06f277-a4fd-1723-8307-35461bab485d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ee06f277-a4fd-1723-8307-35461bab485d}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5677c0bd-49c4-4575-c3c2-b7ff1a2938db}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5677c0bd-49c4-4575-c3c2-b7ff1a2938db}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5677c0bd-49c4-4575-c3c2-b7ff1a2938db}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5677c0bd-49c4-4575-c3c2-b7ff1a2938db}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55760b00-5951-cb94-efe9-41b812e69e05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55760b00-5951-cb94-efe9-41b812e69e05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55760b00-5951-cb94-efe9-41b812e69e05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55760b00-5951-cb94-efe9-41b812e69e05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8b4f2fee-971a-5163-7ebc-f1cb7355dade}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8b4f2fee-971a-5163-7ebc-f1cb7355dade}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8b4f2fee-971a-5163-7ebc-f1cb7355dade}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8b4f2fee-971a-5163-7ebc-f1cb7355dade}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

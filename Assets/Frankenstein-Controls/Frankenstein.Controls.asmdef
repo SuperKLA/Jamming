@@ -1,0 +1,26 @@
+﻿{
+    "name": "Frankenstein.Controls",
+    "references": [
+"FingersLite",
+"JoystickPack",
+"Frankenstein",
+"Unity.Addressables",
+"Unity.ResourceManager",
+"Unity.Transforms",
+"Unity.Entities",
+"Unity.Physics",
+"Unity.Collections",
+"Unity.Burst",
+"Unity.Entities.Hybrid",
+"Unity.Mathematics"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

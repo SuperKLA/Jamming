@@ -1,0 +1,22 @@
+{
+    "name": "Frankenstein",
+    "references": [
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Unity.Entities",
+        "Unity.Physics",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities.Hybrid",
+        "Unity.Rendering.Hybrid"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
