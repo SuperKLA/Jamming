@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using CafeBoy;
-using CafeBoyBoot.DTO;
-using CafeBoyBoot.DTO.Entities;
+using CafeBoy.DTO;
+using CafeBoy.DTO.Entities;
+using CafeBoy.Pool.Entities;
 using Frankenstein;
 using Frankenstein.Controls.Entities;
 
-namespace CafeBoyBoot.Game
+namespace CafeBoy.Game
 {
-    public class CafeBoyGame : APIModel, IQueryable, IGameData
+    public class CafeBoyGame : APIModel, IQueryable, IGameData, IGamePoolable
     {
         #region Queries
 
@@ -35,14 +34,15 @@ namespace CafeBoyBoot.Game
         #region Locals
 
         public GameConfig GameConfig => this.IGameData.Service.GameConfig;
-        
+
         #endregion
 
 
         #region Interface Accessors
 
-        private IQueryable        IQueryable        => this;
-        private IGameData         IGameData         => this;
+        private IQueryable    IQueryable    => this;
+        private IGameData     IGameData     => this;
+        private IGamePoolable IGamePoolable => this;
 
         #endregion
 
@@ -51,8 +51,9 @@ namespace CafeBoyBoot.Game
 
         public override void Boot(params object[] any)
         {
-            this.IGameData.Service         = this.SetupServices<IGameDataService>();
-            this.IQueryable.Service        = this.SetupServices<IQueryableService>();
+            this.IGameData.Service     = this.SetupServices<IGameDataService>();
+            this.IQueryable.Service    = this.SetupServices<IQueryableService>();
+            this.IGamePoolable.Service = this.SetupServices<IGamePoolableService>();
         }
 
         public override void Destroy()
@@ -79,8 +80,8 @@ namespace CafeBoyBoot.Game
         {
 //            if (typeof(TService) == typeof(IPlayerQuery))
 //                return (TService) this.IPlayer.Service;
-//            if (typeof(TService) == typeof(IPlayerActionQuery))
-//                return (TService) this.IPlayerAction.Service;
+            if (typeof(TService) == typeof(IGamePoolableQuery))
+                return (TService) this.IGamePoolable.Service;
             return default(TService);
         }
 
@@ -90,6 +91,20 @@ namespace CafeBoyBoot.Game
         #region IGameData
 
         IGameDataService IAPIEntity<IGameDataService>.Service { get; set; }
+
+        #endregion
+
+
+        #region IGamePoolable
+
+        IGamePoolableService IAPIEntity<IGamePoolableService>.Service { get; set; }
+
+        IAPIModel IGamePool.CreateCity(params object[] any)
+        {
+            var c = new City();
+            c.Boot(any);
+            return c;
+        }
 
         #endregion
     }

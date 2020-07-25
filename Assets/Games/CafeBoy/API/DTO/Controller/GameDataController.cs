@@ -1,7 +1,7 @@
-﻿using CafeBoyBoot.DTO.Entities;
+﻿using CafeBoy.DTO.Entities;
 using Frankenstein;
 
-namespace CafeBoyBoot.DTO.Controller
+namespace CafeBoy.DTO.Controller
 {
     // public class GameDataController : APIController<IGameData>, IGameDataService
     // {

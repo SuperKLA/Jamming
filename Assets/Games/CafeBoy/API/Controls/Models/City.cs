@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using CafeBoy;
-using CafeBoyBoot.DTO;
-using CafeBoyBoot.DTO.Entities;
+using CafeBoy.DTO;
+using CafeBoy.DTO.Entities;
 using Frankenstein;
 using Frankenstein.Controls.Entities;
 
-namespace CafeBoyBoot.Game
+namespace CafeBoy.Game
 {
     public class City : APIModel, IQueryable, IGameData
     {

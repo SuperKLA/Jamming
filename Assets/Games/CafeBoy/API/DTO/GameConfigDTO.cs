@@ -2,7 +2,7 @@
 using Frankenstein.DTO;
 using UnityEngine;
 
-namespace CafeBoyBoot.DTO
+namespace CafeBoy.DTO
 {
     public interface IGameConfig
     {

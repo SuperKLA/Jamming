@@ -1,8 +1,8 @@
-using CafeBoyBoot.DTO.Controller;
-using CafeBoyBoot.DTO.Entities;
+using CafeBoy.DTO.Controller;
+using CafeBoy.DTO.Entities;
 using Frankenstein;
 
-namespace CafeBoyBoot
+namespace CafeBoy
 {
     public class CafeBoyBoot : IAPIBoot
     {

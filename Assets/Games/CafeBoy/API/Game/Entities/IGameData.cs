@@ -1,7 +1,7 @@
 ﻿using Frankenstein;
 using Frankenstein.Controls.Entities;
 
-namespace CafeBoyBoot.DTO.Entities
+namespace CafeBoy.DTO.Entities
 {
     public interface IGameData : IAPIEntity<IGameDataService>
     {
