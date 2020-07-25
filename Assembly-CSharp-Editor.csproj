@@ -170,6 +170,9 @@
  <Reference Include="Unity.Mathematics">
  <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Deformations">
  <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.Deformations.dll</HintPath>
  </Reference>
@@ -181,6 +184,9 @@
  </Reference>
  <Reference Include="Unity.Properties.UI.Editor">
  <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.Properties.UI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
  <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
@@ -215,23 +221,17 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Transforms.Hybrid">
- <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEngineBridge.001">
- <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Runtime">
- <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
- </Reference>
  <Reference Include="Unity.2D.Common.Editor">
  <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.InternalAPIEditorBridge.001">
  <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Transforms.Hybrid">
+ <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -421,9 +421,6 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-CSharp">
- <HintPath>C:/GameProjects/Jamming/Library/ScriptAssemblies/Assembly-CSharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -825,6 +822,10 @@
     <ProjectReference Include="Frankenstein.CloudBuild.csproj">
       <Project>{55760b00-5951-cb94-efe9-41b812e69e05}</Project>
       <Name>Frankenstein.CloudBuild</Name>
+    </ProjectReference>
+    <ProjectReference Include="CafeBoy.csproj">
+      <Project>{ee1e6f96-0e1c-1c6a-1ab6-86b8dec520a4}</Project>
+      <Name>CafeBoy</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

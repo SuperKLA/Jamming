@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frankenstein.DTO", "Franken
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingersLite", "FingersLite.csproj", "{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeBoy", "CafeBoy.csproj", "{ee1e6f96-0e1c-1c6a-1ab6-86b8dec520a4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frankenstein.CloudBuild", "Frankenstein.CloudBuild.csproj", "{55760b00-5951-cb94-efe9-41b812e69e05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{8b4f2fee-971a-5163-7ebc-f1cb7355dade}"
@@ -41,6 +43,10 @@ Global
 		{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9607e66d-6ed1-422c-7bf1-9d5d7a84f990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ee1e6f96-0e1c-1c6a-1ab6-86b8dec520a4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ee1e6f96-0e1c-1c6a-1ab6-86b8dec520a4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ee1e6f96-0e1c-1c6a-1ab6-86b8dec520a4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ee1e6f96-0e1c-1c6a-1ab6-86b8dec520a4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{55760b00-5951-cb94-efe9-41b812e69e05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{55760b00-5951-cb94-efe9-41b812e69e05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55760b00-5951-cb94-efe9-41b812e69e05}.Release|Any CPU.ActiveCfg = Release|Any CPU

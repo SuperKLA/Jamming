@@ -1,0 +1,17 @@
+﻿{
+	"name": "CafeBoy",
+	"references": [
+		"Frankenstein",
+		"Frankenstein.DTO",
+		"Frankenstein.Controls"
+	],
+	"includePlatforms": [],
+	"excludePlatforms": [],
+	"allowUnsafeCode": true,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [],
+	"noEngineReferences": false
+}
